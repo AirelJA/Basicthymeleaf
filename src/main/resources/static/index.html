@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>insert data</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>insert data</div> 
+        <hr/>
+        <form action="/insertData", method="POST", enctype="multipart/form-data">
+            Nama : <input type="string" name="nama"/><br><br>
+            Tanggal : <input type="date" name="kalender"/><br><br>
+            Insert Image : <input type="file" name="gambar"/>
+            <br>
+            <input type="submit" value="Insert"/>
+        </form>
+    </body>
+</html>
